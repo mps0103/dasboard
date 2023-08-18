@@ -1,29 +1,30 @@
-:host {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  h2 {
-    margin-bottom: 20px;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  a:hover {
-    color: #555;
-  }
-  
+.login-popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff; /* Set the background color as needed */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.login-button {
+  background-color: #87CEEB; /* Light blue color */
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

@@ -11,9 +11,10 @@ export class DashboardComponent {
 
   constructor(public dialog: MatDialog) {}
 
-  openLoginPopup(): void {
-    const dialogRef = this.dialog.open(LoginPopupComponent, {
+  openLogoutDialog(): void {
+    const dialogRef = this.dialog.open(LogoutDialogComponent, {
       width: '300px'
     });
+
   }
 }

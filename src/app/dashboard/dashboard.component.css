@@ -1,5 +1,9 @@
+.top-header {
+  background-color: #87CEEB; 
+  padding: 50px; 
+}
 .sidebar {
-    background-color: #333;
+    background-color: #4887be;
     color: #fff;
     width: 250px;
     height: 100vh;

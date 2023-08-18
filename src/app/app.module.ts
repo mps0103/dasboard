@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginPopupComponent } from './login-popup/login-popup.component';
-import { MatIconModule } from '@angular/material/icon'; 
+import { MatIconModule } from '@angular/material/icon';
+import { LoginDialogComponent } from './login-dialog/login-dialog.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    LoginPopupComponent
+    LoginPopupComponent,
+    LoginDialogComponent
   ],
   imports: [
     BrowserModule,
